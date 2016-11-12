@@ -1,0 +1,9 @@
+pipeline:
+  print:
+    image: envprinter
+    macros:
+      dist: .el7.ius
+      vendor: IUS
+    other:
+      - dist=.el7.ius
+      - vendor=IUS
